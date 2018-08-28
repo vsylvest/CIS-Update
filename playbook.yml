@@ -15,7 +15,8 @@
 #   limitations under the License.
 #
 
-- hosts: tag_Name_rhel
+- hosts: 
+    tag_Name_rhel
   accelerate: true
   user: root
   roles:
