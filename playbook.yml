@@ -4,4 +4,4 @@
     tag_Name_rhel
   become: true
   roles:
-    - oscap-rhel
+    - cis
