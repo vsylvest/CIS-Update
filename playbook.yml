@@ -1,8 +1,7 @@
 ---
-- name: Update Server CIS Compliance
-  hosts: 
+- name: Running Compliance against RHEL
+  hosts:
     tag_Name_rhel
-  accelerate: true
-  user: root
+  become: true
   roles:
-    - cis
+    - oscap-rhel
