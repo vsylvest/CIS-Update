@@ -2,6 +2,7 @@
 - name: Running Compliance against RHEL
   hosts:
     tag_Name_rhel
-  become: true
+  accelerate: true
+  user: root
   roles:
     - cis
