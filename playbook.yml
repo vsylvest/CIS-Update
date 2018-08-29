@@ -1,7 +1,7 @@
 ---
 - name: Running Compliance against RHEL
   hosts:
-    tag_Name_rhel
+    tag_Name_rhel2
   vars: 
     accelerate: true
     user: root
